@@ -1,5 +1,5 @@
 import type { FormEvent } from "react";
-import useInput from "./Hook/useInput";
+import useInput from "../Hook/useInput.tsx";
 
 interface IAddColorFormProps {
   onNewColors?: (title: string, color: string) => void;

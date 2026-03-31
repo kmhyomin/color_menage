@@ -1,6 +1,6 @@
 import { FaTrash } from "react-icons/fa";
 import type { ColorItem } from "../data/colorTree";
-import StarPoint from "../StarPoint";
+import StarPoint from "./StarPoint";
 
 interface ColorProps extends ColorItem {
   onRemove: (id: string) => void;

@@ -1,4 +1,3 @@
-import "./App.css";
 import { FaStar } from "react-icons/fa";
 
 export const Star = ({ selected = false, onSelect = (f: any) => f }) => {
